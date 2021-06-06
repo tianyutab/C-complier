@@ -1,0 +1,8 @@
+void main(){
+	int a = 0;
+	int wwwb = 3;
+	int ww = 4;
+	if(!a){
+		a = 1;
+	}
+}

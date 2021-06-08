@@ -40,16 +40,7 @@ bool canCalculate(ASTNode* a1,ASTNode* a3){
 	return false;
 }
 
-symbol::symbol(){
-    }
-symbol::symbol(std::string Name,symbolType Type){
 
-    this->Name = Name;
-    this->Type = Type;
-    }
-const std::string symbol::getIdName(){
-    return this->Name;
-    }
 
 symbol *symbolTable::ifExist(std::string name){
     std::unordered_map<std::string, symbol *>::iterator i;
